@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "test-setup": "bower install",
     "test": "ember test"
   },
   "buildpacks": [
