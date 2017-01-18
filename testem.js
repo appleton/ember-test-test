@@ -10,8 +10,9 @@ module.exports = {
     'Chrome'
   ],
   'browser_args': {
-    'Chrome': [
-      '--headless'
+    'Chrome Canary': [
+      '--headless',
+      '--no-sandbox'
     ]
   }
 }
