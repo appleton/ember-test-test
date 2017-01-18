@@ -1,5 +1,6 @@
 {
   "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-apt" },
     { "url": "https://github.com/gudmundur/heroku-buildpack-chromedriver" },
     { "url": "https://github.com/hunterloftis/heroku-buildpack-nodejs" }
   ]
