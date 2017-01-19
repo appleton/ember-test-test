@@ -12,7 +12,8 @@ module.exports = {
   'browser_args': {
     'Chrome Canary': [
       '--headless',
-      '--no-sandbox'
+      '--no-sandbox',
+      '--disable-gpu'
     ]
   }
 }
