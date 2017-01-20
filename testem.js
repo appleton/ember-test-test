@@ -14,7 +14,7 @@ module.exports = {
       '--headless',
       '--no-sandbox',
       '--disable-gpu',
-      '--silent-launch'
+      '--remote-debugging-port=9222'
     ]
   }
 }
