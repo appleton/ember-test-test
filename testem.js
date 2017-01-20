@@ -13,7 +13,8 @@ module.exports = {
     'Chrome Canary': [
       '--headless',
       '--no-sandbox',
-      '--disable-gpu'
+      '--disable-gpu',
+      '--remote-debugging-port=9222'
     ]
   }
 }
