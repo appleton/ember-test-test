@@ -4,8 +4,7 @@
     "test": "ember test"
   },
   "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-apt" },
-    { "url": "https://github.com/gudmundur/heroku-buildpack-chromedriver" },
+    { "url": "https://github.com/appleton/heroku-buildpack-google-chrome" },
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs" }
   ]
 }
