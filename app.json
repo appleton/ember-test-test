@@ -4,7 +4,7 @@
     "test": "ember test"
   },
   "buildpacks": [
-    { "url": "https://github.com/appleton/heroku-buildpack-google-chrome#default-flags" },
+    { "url": "https://github.com/heroku/heroku-buildpack-google-chrome#chrome-stable" },
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs" }
   ]
 }
